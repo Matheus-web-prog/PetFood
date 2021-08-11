@@ -9,7 +9,7 @@ const Map = ({ petshops }) => {
     return (
         <div className="container-map">
             <GoogleMapReact
-                bootstrapURLKeys={{key: 'AIzaSyD5Hbvl6b1H_8OJHsTtGTTaUBiXAp-AgVA' }}
+                bootstrapURLKeys={{key: 'your key here' }}
                 center={mapCenter}
                 defaultZoom={15}
             >
